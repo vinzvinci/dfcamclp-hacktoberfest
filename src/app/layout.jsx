@@ -18,11 +18,11 @@ const dmSans = DM_Sans({
 
 export const metadata = {
   title: {
-    template: '%s - DeceptiConf',
-    default: 'DeceptiConf - A community-driven design conference',
+    template: '%s - DFCAMCLP',
+    default: 'DFCAMCLP - Hacktoberfest 2023',
   },
   description:
-    'At DeceptiConf you’ll learn about the latest dark patterns being developed to trick even the smartest visitors, and you’ll learn how to deploy them without ever being detected.',
+    'It’s that time again – Hacktoberfest! This month-long celebration embraces the Open Source Software community, and we’re excited to invite the DFCAMCLP Satellite Campus Iskolars to celebrate the spirit of Open Source Software',
 }
 
 export default function RootLayout({ children }) {
