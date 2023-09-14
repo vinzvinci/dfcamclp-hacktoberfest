@@ -12,49 +12,37 @@ const schedule = [
     date: 'Morning Session',
     dateTime: '2023-10-21',
     summary:
-      'The first day of the conference is focused on dark patterns for ecommerce.',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
     timeSlots: [
       {
-        name: 'Steven McHail',
-        description: 'Not so one-time payments',
-        start: '9:00AM',
-        end: '10:00AM',
+        name: 'Opening Preliminaries and Remarks',
+        description: 'Host Speaker',
+        start: '8:00AM',
+        end: '8:30AM',
       },
       {
-        name: 'Jaquelin Isch',
-        description: 'The finer print',
-        start: '10:00AM',
-        end: '11:00AM',
+        name: 'Keynote: TBD',
+        description: 'Vincent Villafuerte',
+        start: '8:30AM',
+        end: '9:15AM',
       },
       {
-        name: 'Dianne Guilianelli',
-        description: 'Post-purchase blackmail',
-        start: '11:00AM',
+        name: 'Lets Git started with GitHub',
+        description: 'Nikka Herrera',
+        start: '9:15AM',
+        end: '9:45AM',
+      },
+      {
+        name: 'Get started on Hacktoberfest',
+        description: 'Christian Igbaras',
+        start: '9:45AM',
+        end: '10:15AM',
+      },
+      {
+        name: 'Hacking/Contributing time',
+        description: 'Vincent & Christian',
+        start: '10:15AM',
         end: '12:00PM',
-      },
-      {
-        name: 'Lunch',
-        description: null,
-        start: '12:00PM',
-        end: '1:00PM',
-      },
-      {
-        name: 'Ronni Cantadore',
-        description: 'Buy or die',
-        start: '1:00PM',
-        end: '2:00PM',
-      },
-      {
-        name: 'Erhart Cockrin',
-        description: 'In-person cancellation',
-        start: '2:00PM',
-        end: '3:00PM',
-      },
-      {
-        name: 'Parker Johnson',
-        description: 'The pay/cancel switcheroo',
-        start: '3:00PM',
-        end: '4:00PM',
       },
     ],
   },
@@ -62,99 +50,51 @@ const schedule = [
     date: 'Afternoon Session',
     dateTime: '2022-10-21',
     summary:
-      'Next we spend the day talking about deceiving people with technology.',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. ',
     timeSlots: [
       {
-        name: 'Damaris Kimura',
-        description: 'The invisible card reader',
-        start: '9:00AM',
-        end: '10:00AM',
-      },
-      {
-        name: 'Ibrahim Frasch',
-        description: 'Stealing fingerprints',
-        start: '10:00AM',
-        end: '11:00AM',
-      },
-      {
-        name: 'Cathlene Burrage',
-        description: 'Voting machines',
-        start: '11:00AM',
-        end: '12:00PM',
-      },
-      {
-        name: 'Lunch',
-        description: null,
-        start: '12:00PM',
-        end: '1:00PM',
-      },
-      {
-        name: 'Rinaldo Beynon',
-        description: 'Blackhat SEO that works',
+        name: 'TBD',
+        description: 'Joshua Bumanlag',
         start: '1:00PM',
         end: '2:00PM',
       },
       {
-        name: 'Waylon Hyden',
-        description: 'Turning your audience into a botnet',
+        name: 'Icebreaker',
+        description: 'TBD',
         start: '2:00PM',
-        end: '3:00PM',
-      },
-      {
-        name: 'Giordano Sagucio',
-        description: 'Fly phishing',
-        start: '3:00PM',
-        end: '4:00PM',
+        end: '2:30PM',
       },
     ],
   },
   {
-    date: 'Near End - Afternoon Session',
+    date: 'Breaktime + Contributing',
     dateTime: '2022-10-21',
     summary:
-      'We close out the event previewing new techniques that are still in development.',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
     timeSlots: [
       {
-        name: 'Andrew Greene',
-        description: 'Neuralink dark patterns',
-        start: '9:00AM',
-        end: '10:00AM',
+        name: 'Light breakfast',
+        description: 'Coffee + Light Snacks',
+        start: '8:00PM',
+        end: '8:30PM',
       },
       {
-        name: 'Heather Terry',
-        description: 'DALL-E for passports',
-        start: '10:00AM',
-        end: '11:00AM',
-      },
-      {
-        name: 'Piers Wilkins',
-        description: 'Quantum password cracking',
-        start: '11:00AM',
-        end: '12:00PM',
-      },
-      {
-        name: 'Lunch',
-        description: null,
+        name: 'Lunch Time',
+        description: 'Eat Lunch',
         start: '12:00PM',
         end: '1:00PM',
       },
       {
-        name: 'Gordon Sanderson',
-        description: 'SkyNet is coming',
-        start: '1:00PM',
-        end: '2:00PM',
-      },
-      {
-        name: 'Kimberly Parsons',
-        description: 'Dark patterns for the metaverse',
-        start: '2:00PM',
-        end: '3:00PM',
-      },
-      {
-        name: 'Richard Astley',
-        description: 'Knowing the game and playing it',
-        start: '3:00PM',
+        name: 'Eat snacks and Contribute',
+        description: null,
+        start: '2:30PM',
         end: '4:00PM',
+      },
+      {
+        name: 'Networking and Photoshoot',
+        description: null,
+        start: '4:00PM',
+        end: '5:00PM',
       },
     ],
   },
@@ -298,13 +238,11 @@ export function Schedule() {
       <Container className="relative z-10">
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-4xl lg:pr-24">
           <h2 className="font-display text-4xl font-medium tracking-tighter text-blue-600 sm:text-5xl">
-            Our three day schedule is jam-packed with brilliant, creative, evil
-            geniuses.
+            Our three day schedule is lorem ipsum dolor sit amet, consectetur adipiscing
+            elit.
           </h2>
           <p className="mt-4 font-display text-2xl tracking-tight text-blue-900">
-            The worst people in our industry giving the best talks you’ve ever
-            seen. Nothing will be recorded and every attendee has to sign an NDA
-            to watch the talks.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
           </p>
         </div>
       </Container>

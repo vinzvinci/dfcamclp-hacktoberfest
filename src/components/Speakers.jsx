@@ -38,16 +38,6 @@ const days = [
         role: 'Lead & CEO at Google Developer Student Clubs PLM',
         image: joshuabumanlagImage,
       },
-      {
-        name: 'Unknown',
-        role: 'UI/UX Designer',
-        image: anonymityImage,
-      },
-      {
-        name: 'Unknown',
-        role: 'Unknown',
-        image: anonymityImage,
-      },
     ],
   },
 ]
@@ -105,8 +95,7 @@ export function Speakers() {
             Speakers
           </h2>
           <p className="mt-4 font-display text-2xl tracking-tight text-blue-900">
-            Learn from the experts on the cutting-edge of deception at the most
-            sinister companies.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
           </p>
         </div>
         <Tab.Group
