@@ -9,8 +9,8 @@ import { Container } from '@/components/Container'
 
 const schedule = [
   {
-    date: 'April 4',
-    dateTime: '2022-04-04',
+    date: 'Morning Session',
+    dateTime: '2023-10-21',
     summary:
       'The first day of the conference is focused on dark patterns for ecommerce.',
     timeSlots: [
@@ -59,8 +59,8 @@ const schedule = [
     ],
   },
   {
-    date: 'April 5',
-    dateTime: '2022-04-05',
+    date: 'Afternoon Session',
+    dateTime: '2022-10-21',
     summary:
       'Next we spend the day talking about deceiving people with technology.',
     timeSlots: [
@@ -109,8 +109,8 @@ const schedule = [
     ],
   },
   {
-    date: 'April 6',
-    dateTime: '2022-04-06',
+    date: 'Near End - Afternoon Session',
+    dateTime: '2022-10-21',
     summary:
       'We close out the event previewing new techniques that are still in development.',
     timeSlots: [
