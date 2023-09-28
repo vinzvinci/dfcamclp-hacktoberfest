@@ -6,17 +6,19 @@ import { Tab } from '@headlessui/react'
 import clsx from 'clsx'
 import { Container } from '@/components/Container'
 import { DiamondIcon } from '@/components/DiamondIcon'
-import christianigbarasImage from '@/images/avatars/christianigbaras.jpg'
+import ronaldlazImage from '@/images/avatars/ronaldlaz.png'
 import anonymityImage from '@/images/avatars/anonymity.png'
-import jaquelinIschImage from '@/images/avatars/nikxherrera.jpg'
+import nikxherreraImage from '@/images/avatars/nikxherrera.jpg'
 import joshuabumanlagImage from '@/images/avatars/joshuabumanlag.jpg'
 import vinzvinciImage from '@/images/avatars/vinzvinci.jpg'
+import mynrjadImage from '@/images/avatars/mynrjad.jpg'
+import { GOOGLE_FONT_PROVIDER } from 'next/dist/shared/lib/constants'
 
 const days = [
   {
     name: 'Event Day',
-    date: 'October 21',
-    dateTime: '2023-10-21',
+    date: 'October 29',
+    dateTime: '2023-10-29',
     speakers: [
       {
         name: 'Vincent Villafuerte',
@@ -26,17 +28,22 @@ const days = [
       {
         name: 'Nikka Herrera',
         role: 'GitHub Campus Expert',
-        image: jaquelinIschImage,
-      },
-      {
-        name: 'Christian Igbaras',
-        role: 'DX Programmer at JGC Philippines',
-        image: christianigbarasImage,
+        image: nikxherreraImage,
       },
       {
         name: 'Joshua Bumanlag',
         role: 'Lead & CEO at Google Developer Student Clubs PLM',
         image: joshuabumanlagImage,
+      },
+      {
+        name: 'Ryem Jian Dumlao',
+        role: 'UX/UI Designer at Gamer Points ',
+        image: mynrjadImage,
+      },
+      {
+        name: 'Ronald Laz',
+        role: 'GitHub Campus Expert, Shopify SaaS Technical Support Specialist & Freelance Web Developer',
+        image: ronaldlazImage,
       },
     ],
   },
