@@ -1,11 +1,11 @@
 import Image from 'next/image';
 import { Container } from '@/components/Container';
 import logoGitHub from '@/images/logos/GitHub-Logo.png';
-import logoWebXGuild from '@/images/logos/WebX_Guild_Logo.png';
+import logoGuidlify from '@/images/logos/guidlify.png';
 
 const sponsors = [
   { name: 'GitHub', logo: logoGitHub, url: 'https://github.com/' },
-  //{ name: 'WebXGuild', logo: logoWebXGuild, url: 'https://github.com/WebXGuild' },
+  { name: 'Guidlify', logo: logoGuidlify, url: 'https://github.com/Guidlify' },
 ];
 
 export function Sponsors() {

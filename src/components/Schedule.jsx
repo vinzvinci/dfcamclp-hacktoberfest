@@ -39,8 +39,8 @@ const schedule = [
         end: '10:15AM',
       },
       {
-        name: 'Hacking/Contributing time',
-        description: 'Vincent & Christian',
+        name: 'Navigating the Dev World: Git, GitHub, and the Student Developer Pack Unleashed',
+        description: 'Nikka Herrera',
         start: '10:15AM',
         end: '12:00PM',
       },
