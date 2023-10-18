@@ -20,7 +20,7 @@ export function Header() {
           </div>
         </div>
         <div className="hidden sm:mt-10 sm:flex lg:mt-0 lg:grow lg:basis-0 lg:justify-end">
-          <Button href="#">Registration not Open</Button>
+          <Button href="https://tinyurl.com/PSITE-DFCAMCLP-HF2023">Registration Open</Button>
         </div>
       </Container>
     </header>
