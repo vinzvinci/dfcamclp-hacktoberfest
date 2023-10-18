@@ -258,6 +258,10 @@ export function Schedule() {
           <h2 className="font-display text-4xl font-medium tracking-tighter text-blue-600 sm:text-5xl">
             Schedule
           </h2>
+          <p className="mt-4 font-display text-2xl tracking-tight text-blue-900">
+          Get ready for an exciting lineup of events at our campus Hacktoberfest! We can't wait to see you there as we dive into a month filled with innovation,
+          coding, and open-source contributions.
+          </p>
         </div>
       </Container>
       <div className="relative mt-14 sm:mt-24">

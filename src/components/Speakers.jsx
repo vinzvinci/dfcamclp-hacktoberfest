@@ -102,7 +102,7 @@ export function Speakers() {
             Speakers
           </h2>
           <p className="mt-4 font-display text-2xl tracking-tight text-blue-900">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+            Presenting passionate speakers and influential leaders from the tech industry.
           </p>
         </div>
         <Tab.Group
