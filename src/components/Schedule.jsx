@@ -12,7 +12,7 @@ const schedule = [
     date: 'Morning Session',
     dateTime: '2023-10-21',
     summary:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
+      'Schedule for Morning section.',
     timeSlots: [
       {
         name: 'Opening Preliminaries and Remarks',
@@ -39,6 +39,12 @@ const schedule = [
         end: '11:00AM',
       },
       {
+        name: 'Icebreaker',
+        description: null,
+        start: '11:00AM',
+        end: '11:10AM',
+      },
+      {
         name: 'Intro to Flutter and On Device ML',
         description: 'Joshua Bumanlag',
         start: '11:10AM',
@@ -50,7 +56,7 @@ const schedule = [
     date: 'Afternoon Session',
     dateTime: '2022-10-29',
     summary:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. ',
+      'Schedule for afternoon session and icebreaker',
     timeSlots: [
       {
         name: 'From Sketch to Screen: The Digital Design Playground of UI/UX',
@@ -82,7 +88,7 @@ const schedule = [
     date: 'Breaktime + Contributing',
     dateTime: '2022-10-29',
     summary:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
+      'Schedule for lunch break, snacks, and activities',
     timeSlots: [
       {
         name: 'Light breakfast',
@@ -250,12 +256,8 @@ export function Schedule() {
       <Container className="relative z-10">
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-4xl lg:pr-24">
           <h2 className="font-display text-4xl font-medium tracking-tighter text-blue-600 sm:text-5xl">
-            Our three day schedule is lorem ipsum dolor sit amet, consectetur adipiscing
-            elit.
+            Schedule
           </h2>
-          <p className="mt-4 font-display text-2xl tracking-tight text-blue-900">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
-          </p>
         </div>
       </Container>
       <div className="relative mt-14 sm:mt-24">
