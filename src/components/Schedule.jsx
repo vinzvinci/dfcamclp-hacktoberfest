@@ -259,8 +259,8 @@ export function Schedule() {
             Schedule
           </h2>
           <p className="mt-4 font-display text-2xl tracking-tight text-blue-900">
-          Get ready for an exciting lineup of events at our campus Hacktoberfest! We can't wait to see you there as we dive into a month filled with innovation,
-          coding, and open-source contributions.
+            Get ready for an exciting lineup of events at our campus Hacktoberfest! We can't wait to see you there as we dive into a month filled with innovation,
+            coding, and open-source contributions.
           </p>
         </div>
       </Container>
