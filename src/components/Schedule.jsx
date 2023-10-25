@@ -21,15 +21,9 @@ const schedule = [
         end: '8:30AM',
       },
       {
-        name: 'Keynote: The Mission and Impact of Hacktoberfest',
+        name: 'Accelerating your Career with Open Source feat. Hacktoberfest',
         description: 'Vincent Villafuerte',
         start: '9:00AM',
-        end: '9:30AM',
-      },
-      {
-        name: 'Getting Started with Hacktoberfest',
-        description: 'Vincent Villafuerte',
-        start: '9:30AM',
         end: '10:00AM',
       },
       {
